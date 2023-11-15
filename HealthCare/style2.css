@@ -1,0 +1,110 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grey {
+    color: rgb(101, 99, 99);
+}
+body {
+    background-color: #012e57;
+    font-family: 'Ubuntu', sans-serif;
+}
+hr {
+    color: rgb(225, 218, 218);
+    width: 80%;
+}
+h3, h5{
+    color: #012e57;
+}
+#navbar {
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 4vh;
+    background-color: white;
+    width: 50vw;
+    flex-direction: column;
+    border-radius: 8px;
+}
+nav a {
+    text-decoration: none;
+    justify-content: space-between;
+    width: 80vh;
+}
+.box {
+    width: 80% ;
+    padding: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+.box img {
+    width: 6vw;
+    height: 4vw;
+}
+.small {
+    width: 5vh !important;
+    height: 3.5vh !important;
+}
+.mail {
+    width: 3vh !important;
+    height: 2vh !important;
+}
+.ortho {
+    width: 7vh !important;
+    height: 7vh !important;
+}
+.back {
+    width: 4vh !important;
+    height: 4vh !important;
+    margin-right: 2vh;
+}
+
+/* ----------Semi-Circle--------- */
+.semicircle {
+    flex-direction: column;
+    width: 80%;
+    border-radius: 3vh;
+    background-color: #012e57;
+    color: white;
+    padding: 1vh;
+    margin-bottom: 4vh;
+    border-bottom: 1vh;
+    border-bottom-style: groove;
+}
+.semicircle img {
+    width: 25%;
+    height: 30%;
+}
+.inside {
+    /* width: 100%; */
+    justify-content: space-evenly;
+}
+/* jj */
+.progress {
+    position: relative;
+    margin: 4px;
+    float: left;
+    text-align: center;
+  }
+  
+  .barOverflow {
+    position: relative;
+    overflow: hidden;
+    width: 90px;
+    height: 45px;
+    margin-bottom: -14px;
+  }
+  
+  .bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 15px solid #eee;
+    border-bottom-color: green;
+    border-right-color: green;
+  }
+  

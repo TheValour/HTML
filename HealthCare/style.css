@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------Navbar--------- */
+nav {
+    width: 10vh;
+    color: #fff; /* Text color */
+    display: flex;
+}
+.navbar-home {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+    background: #02325f;
+    margin-bottom: 8vh;
+}
+.navbar-home img {
+    width: 5%;
+}
+.navbar-home a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 16px;
+    margin: 0 15px;
+    transition: color 0.3s; 
+}
+
+.navbar-home a:hover {
+    color: #ffd700; /* Change link color on hover */
+}
+
+/* ------Hero-section----- */
+.hero-section {
+    background-color: #033666;
+    height: 90vh;   
+    margin-top: 10vh;
+}
+.hero-inside {
+    flex-direction: column;
+}
+.hero-inside h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+.hero-inside p {
+    color: whitesmoke;
+}
+.hero-inside button {
+    color: white;
+    width: 8vw;
+    height: 6vh;
+    padding: 1vh;
+    border-radius: 4px;
+    border: none;
+    z-index: 8;
+    cursor: pointer;
+    background: rgb(2, 100, 2);
+}
+button:hover {
+    background-color: rgb(5, 69, 5);
+}
+#banner {
+    background: url('../img/bg-banner.jpg') no-repeat fixed;
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    opacity: 0.2;
+    background-size: cover;
+}
+
+/* ----------Services section----- */
+.service-container {
+    background-color: #dcecf2;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 3vh;
+}
+.box h2, h4{ 
+    color: rgb(14, 13, 13);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box{
+    width: 30vw;
+}
+.box p{
+    font-family: serif;
+    color: rgb(72, 70, 70)  ;
+}
+
+/* ------Footer-Section----------*/
+footer {
+    background-color: #02274a; /* Footer background color */
+    color: #fff; /* Text color */
+    padding: 30px 0;
+}
+
+.container {
+    box-sizing: border-box;
+    padding: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-logo img {
+    width: 100px; /* Adjust logo width as needed */
+}
+
+.footer-contact,
+.footer-links {
+    margin: 0 5vw;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffd700; /* Change link color on hover */
+}
+
+.footer-social {
+    text-align: right;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    background-color: white;
+    border-radius: 8px;
+    width: 30px; /* Adjust social icon size as needed */
+}
+
